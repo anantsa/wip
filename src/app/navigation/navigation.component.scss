@@ -1,0 +1,29 @@
+header {
+  padding: 0.5em 1em;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(270deg, #292742 0%, #4848a6 46%, #d31f27 100%);
+  figure {
+    display: flex;
+    .logo {
+      width: 70px;
+    }
+  }
+  nav {
+    display: flex;
+    align-self: center;
+    font-family: "Roboto";
+    color: white;
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      text-transform: uppercase;
+      li {
+        display: inline;
+        margin-left: 25px;
+        cursor: pointer;
+      }
+    }
+  }
+}

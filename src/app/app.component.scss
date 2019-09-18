@@ -1,0 +1,44 @@
+main {
+  .banner {
+    background: url("../assets/img/banner.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(0 1%, 100% 1%, 100% 100%, 0 89%);      
+    padding: 20em;
+      .primary-header {
+        font-size: 2em;
+        color: white;
+        font-family: "Roboto";
+        span {
+          font-weight: bold;
+        }
+      }
+      .banner-caption {
+        color: white;
+        margin-bottom: 1em;
+      }
+    }
+  }
+  .find-doctor {
+      display: flex;
+      margin:-52px auto auto auto;
+      width: 50%;
+    //   position: absolute;
+      background: white;
+      padding: 2em;
+      justify-content: center;
+      justify-self: center;
+      border-radius: 70px;
+      box-shadow: 2px 14px 10px #a4a4a452;
+  }
+
+
+.primary {
+  border-radius: 25px;
+  border: 2px solid white;
+  padding: 0.5em 1em;
+  background: none;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+}
